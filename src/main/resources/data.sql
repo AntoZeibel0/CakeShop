@@ -1,0 +1,11 @@
+insert into users (user_id, password, role, username) values (1, '$2a$12$.RvxLyyMPzTvQqh59GZS1umbOilTQS.qK5nJAreQ0hOCb5aCsE28y', 'ADMIN','admin');
+insert into users (user_id, password, role, username) values (2, '$2a$12$0iKequsodTA.Jt/ChCn.xukhD4tudsEZTVtV6fLyqcSmhzRQwFzR.', 'CUSTOMER','customer');
+insert into users (user_id, password, role, username) values (3, '$2a$12$OTtL6MC3Jt5t2ezrUb6YMOSdS7YUTzixQ0GsBFmMjOnWFIbFVbbMO', 'CUSTOMER','fakecustomer');
+insert into cakes (id, description, cake_name, price) values (1, 'fluffy vanilla sponge cake', 'vanilla cake', 25.0);
+insert into cakes (id, description, cake_name, price) values (2, 'fluffy choco sponge cake', 'choco cake', 25.0);
+insert into cakes (id, description, cake_name, price) values (3, 'fluffy coconut sponge cake', 'coconut cake', 20.0);
+insert into cakes (id, description, cake_name, price) values (4, 'fluffy caramel sponge cake', 'caramel cake', 30.0);
+insert into inventory (inventory_id, availability, quantity, cake_id) values (1, true, 10, 1);
+insert into inventory (inventory_id, availability, quantity, cake_id) values (2, true, 10, 2);
+insert into inventory (inventory_id, availability, quantity, cake_id) values (3, true, 10, 3);
+insert into inventory (inventory_id, availability, quantity, cake_id) values (4, true, 10, 4);
